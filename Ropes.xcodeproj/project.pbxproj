@@ -15,6 +15,14 @@
 		BB2C98311C85431D00BAEE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2C982F1C85431D00BAEE17 /* LaunchScreen.storyboard */; };
 		BB2C983C1C85431E00BAEE17 /* RopesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C983B1C85431E00BAEE17 /* RopesTests.m */; };
 		BB2C98471C85431E00BAEE17 /* RopesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C98461C85431E00BAEE17 /* RopesUITests.m */; };
+		BB8FB2B01C8572FB00EFCE91 /* KMLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8FB2AF1C8572FB00EFCE91 /* KMLogin.storyboard */; };
+		BB8FB2B31C8575EC00EFCE91 /* KMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FB2B21C8575EC00EFCE91 /* KMNavigationController.m */; };
+		BB8FB2B71C857C7E00EFCE91 /* KMRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FB2B61C857C7E00EFCE91 /* KMRegistViewController.m */; };
+		BBB019621C86883D0071362D /* KMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB019601C86883D0071362D /* KMLoginViewController.m */; };
+		BBB019661C8693B10071362D /* KMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB019651C8693B10071362D /* KMAlertView.m */; };
+		BBB019681C8693C40071362D /* KMAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB019671C8693C40071362D /* KMAlertView.xib */; };
+		BBB0196F1C86CD6D0071362D /* KMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB0196E1C86CD6D0071362D /* KMTabBarController.m */; };
+		BBB019721C86D3F80071362D /* preferentialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB019711C86D3F80071362D /* preferentialCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		BB2C98421C85431E00BAEE17 /* RopesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RopesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2C98461C85431E00BAEE17 /* RopesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RopesUITests.m; sourceTree = "<group>"; };
 		BB2C98481C85431E00BAEE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8FB2AF1C8572FB00EFCE91 /* KMLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KMLogin.storyboard; sourceTree = "<group>"; };
+		BB8FB2B11C8575EC00EFCE91 /* KMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNavigationController.h; sourceTree = "<group>"; };
+		BB8FB2B21C8575EC00EFCE91 /* KMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNavigationController.m; sourceTree = "<group>"; };
+		BB8FB2B51C857C7E00EFCE91 /* KMRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRegistViewController.h; sourceTree = "<group>"; };
+		BB8FB2B61C857C7E00EFCE91 /* KMRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRegistViewController.m; sourceTree = "<group>"; };
+		BBB0195F1C86883D0071362D /* KMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLoginViewController.h; sourceTree = "<group>"; };
+		BBB019601C86883D0071362D /* KMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLoginViewController.m; sourceTree = "<group>"; };
+		BBB019641C8693B10071362D /* KMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMAlertView.h; sourceTree = "<group>"; };
+		BBB019651C8693B10071362D /* KMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMAlertView.m; sourceTree = "<group>"; };
+		BBB019671C8693C40071362D /* KMAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMAlertView.xib; sourceTree = "<group>"; };
+		BBB0196B1C869CB30071362D /* macro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.pch; sourceTree = "<group>"; };
+		BBB0196D1C86CD6D0071362D /* KMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTabBarController.h; sourceTree = "<group>"; };
+		BBB0196E1C86CD6D0071362D /* KMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTabBarController.m; sourceTree = "<group>"; };
+		BBB019711C86D3F80071362D /* preferentialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = preferentialCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,9 @@
 		BB2C98201C85431D00BAEE17 /* Ropes */ = {
 			isa = PBXGroup;
 			children = (
+				BB8FB2AE1C8572DA00EFCE91 /* StoryBoard */,
+				BB8FB2A71C856C0900EFCE91 /* Controller */,
+				BB8FB2A61C856B8500EFCE91 /* Views */,
 				BB2C98241C85431D00BAEE17 /* AppDelegate.h */,
 				BB2C98251C85431D00BAEE17 /* AppDelegate.m */,
 				BB2C98271C85431D00BAEE17 /* ViewController.h */,
@@ -109,6 +134,7 @@
 				BB2C982D1C85431D00BAEE17 /* Assets.xcassets */,
 				BB2C982F1C85431D00BAEE17 /* LaunchScreen.storyboard */,
 				BB2C98321C85431D00BAEE17 /* Info.plist */,
+				BBB0196B1C869CB30071362D /* macro.pch */,
 				BB2C98211C85431D00BAEE17 /* Supporting Files */,
 			);
 			path = Ropes;
@@ -138,6 +164,56 @@
 				BB2C98481C85431E00BAEE17 /* Info.plist */,
 			);
 			path = RopesUITests;
+			sourceTree = "<group>";
+		};
+		BB8FB2A61C856B8500EFCE91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB8FB2A71C856C0900EFCE91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBB0196D1C86CD6D0071362D /* KMTabBarController.h */,
+				BBB0196E1C86CD6D0071362D /* KMTabBarController.m */,
+				BB8FB2B41C857C6600EFCE91 /* RegistLogin */,
+				BB8FB2B11C8575EC00EFCE91 /* KMNavigationController.h */,
+				BB8FB2B21C8575EC00EFCE91 /* KMNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB8FB2AE1C8572DA00EFCE91 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BBB019701C86D2E00071362D /* Xib */,
+				BB8FB2AF1C8572FB00EFCE91 /* KMLogin.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		BB8FB2B41C857C6600EFCE91 /* RegistLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FB2B51C857C7E00EFCE91 /* KMRegistViewController.h */,
+				BB8FB2B61C857C7E00EFCE91 /* KMRegistViewController.m */,
+				BBB0195F1C86883D0071362D /* KMLoginViewController.h */,
+				BBB019601C86883D0071362D /* KMLoginViewController.m */,
+				BBB019641C8693B10071362D /* KMAlertView.h */,
+				BBB019651C8693B10071362D /* KMAlertView.m */,
+				BBB019671C8693C40071362D /* KMAlertView.xib */,
+			);
+			name = RegistLogin;
+			sourceTree = "<group>";
+		};
+		BBB019701C86D2E00071362D /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				BBB019711C86D3F80071362D /* preferentialCell.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +278,7 @@
 		BB2C98161C85431D00BAEE17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KM;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Madoka;
 				TargetAttributes = {
@@ -245,7 +322,10 @@
 			files = (
 				BB2C98311C85431D00BAEE17 /* LaunchScreen.storyboard in Resources */,
 				BB2C982E1C85431D00BAEE17 /* Assets.xcassets in Resources */,
+				BB8FB2B01C8572FB00EFCE91 /* KMLogin.storyboard in Resources */,
 				BB2C982C1C85431D00BAEE17 /* Main.storyboard in Resources */,
+				BBB019721C86D3F80071362D /* preferentialCell.xib in Resources */,
+				BBB019681C8693C40071362D /* KMAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB019621C86883D0071362D /* KMLoginViewController.m in Sources */,
 				BB2C98291C85431D00BAEE17 /* ViewController.m in Sources */,
 				BB2C98261C85431D00BAEE17 /* AppDelegate.m in Sources */,
 				BB2C98231C85431D00BAEE17 /* main.m in Sources */,
+				BB8FB2B71C857C7E00EFCE91 /* KMRegistViewController.m in Sources */,
+				BBB019661C8693B10071362D /* KMAlertView.m in Sources */,
+				BB8FB2B31C8575EC00EFCE91 /* KMNavigationController.m in Sources */,
+				BBB0196F1C86CD6D0071362D /* KMTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +496,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ropes/macro.pch;
 				INFOPLIST_FILE = Ropes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Madoka.Ropes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -422,10 +511,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ropes/macro.pch;
 				INFOPLIST_FILE = Ropes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Madoka.Ropes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +589,7 @@
 				BB2C984D1C85431E00BAEE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB2C984E1C85431E00BAEE17 /* Build configuration list for PBXNativeTarget "RopesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +598,7 @@
 				BB2C98501C85431E00BAEE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB2C98511C85431E00BAEE17 /* Build configuration list for PBXNativeTarget "RopesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +607,7 @@
 				BB2C98531C85431E00BAEE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
