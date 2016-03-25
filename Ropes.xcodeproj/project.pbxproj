@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1357B6701CA4B69D00BDF221 /* KMUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357B66F1CA4B69D00BDF221 /* KMUserManager.m */; };
 		BB2C98231C85431D00BAEE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C98221C85431D00BAEE17 /* main.m */; };
 		BB2C98261C85431D00BAEE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C98251C85431D00BAEE17 /* AppDelegate.m */; };
 		BB2C98291C85431D00BAEE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C98281C85431D00BAEE17 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1357B66E1CA4B69D00BDF221 /* KMUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMUserManager.h; sourceTree = "<group>"; };
+		1357B66F1CA4B69D00BDF221 /* KMUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMUserManager.m; sourceTree = "<group>"; };
 		BB2C981E1C85431D00BAEE17 /* Ropes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ropes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2C98221C85431D00BAEE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB2C98241C85431D00BAEE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1357B66A1CA4B32300BDF221 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1357B66E1CA4B69D00BDF221 /* KMUserManager.h */,
+				1357B66F1CA4B69D00BDF221 /* KMUserManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BB2C98151C85431D00BAEE17 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		BB2C98201C85431D00BAEE17 /* Ropes */ = {
 			isa = PBXGroup;
 			children = (
+				1357B66A1CA4B32300BDF221 /* Models */,
 				BB8FB2AE1C8572DA00EFCE91 /* StoryBoard */,
 				BB8FB2A71C856C0900EFCE91 /* Controller */,
 				BB8FB2A61C856B8500EFCE91 /* Views */,
@@ -351,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB019621C86883D0071362D /* KMLoginViewController.m in Sources */,
+				1357B6701CA4B69D00BDF221 /* KMUserManager.m in Sources */,
 				BB2C98291C85431D00BAEE17 /* ViewController.m in Sources */,
 				BB2C98261C85431D00BAEE17 /* AppDelegate.m in Sources */,
 				BB2C98231C85431D00BAEE17 /* main.m in Sources */,
